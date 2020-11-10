@@ -20,14 +20,160 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_armadi" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="70dp"
+        >
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txt_arm_A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingLeft="25dp"
+                android:inputType="textPersonName"
+                android:text="Armadio A"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_arm_a_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:text="Q.602 AUTOMATISMI"
+                android:textAllCaps="true"
+                android:textSize="22sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+            <EditText
+                android:id="@+id/txt_arm_B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingLeft="25dp"
+                android:inputType="textPersonName"
+                android:text="Armadio B"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_arm_b_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:text="Q.597 REFRIGERANTI GR."
+                android:textAllCaps="true"
+                android:textSize="22sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+            <EditText
+                android:id="@+id/txt_arm_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingLeft="25dp"
+                android:inputType="textPersonName"
+                android:text="Armadio C"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_arm_c_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:text="TRASFORMATORI"
+                android:textAllCaps="true"
+                android:textSize="22sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+            <EditText
+                android:id="@+id/txt_arm_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingLeft="25dp"
+                android:inputType="textPersonName"
+                android:text="Armadio D"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_arm_d_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:text="Q.608 ECCITATRICI"
+                android:textAllCaps="true"
+                android:textSize="22sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+            <EditText
+                android:id="@+id/txt_arm_e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingLeft="25dp"
+                android:inputType="textPersonName"
+                android:text="Armadio E"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_arm_e_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:text="ROTATIVE"
+                android:textAllCaps="true"
+                android:textSize="22sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+            <EditText
+                android:id="@+id/txt_arm_F"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingLeft="25dp"
+                android:inputType="textPersonName"
+                android:text="Armadio F"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_arm_f_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:text="SF6"
+                android:textAllCaps="true"
+                android:textSize="22sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
